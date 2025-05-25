@@ -1,0 +1,176 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.header .doctor-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #34495e;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.navbar ul li a:hover {
+    color: #e74c3c;
+}
+
+/* Sections */
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Testimonials */
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-left: 5px solid #e74c3c;
+}
+
+blockquote footer {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #e74c3c;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .header .doctor-photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .header h1 {
+        font-size: 2em;
+    }
+
+    .header p {
+        font-size: 1.1em;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .navbar ul li a {
+        font-size: 1.2em;
+    }
+
+    .footer ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
